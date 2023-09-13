@@ -1,10 +1,21 @@
 :root {
+    --fontBase: 'Poppins', sans-serif;
+    --headLine1: bold 95px/157.71px var(--fontBase);
+    --headLine2: bold 95px/59px var(--fontBase);
+    --headLine3: bold 77px/481px var(--fontBase);
+    --headLine4: bold 55px/341px var(--fontBase);
+    --headLine5: bold 38px/24px var(--fontBase);
+    --body1: 16px/25px var(--fontBase);
+    --body2: 14px/22px var(--fontBase);
+    --button: bold 14px/22px var(--fontBase);
+    --caption: 12px/19px var(--fontBase);
     --gradient: radial-gradient(41.85% 33.13% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
 }
 
 body {
     background: var(--gradient);
     min-block-size: 100vh;
+    font: var(--body1);
 }
 
 .header {

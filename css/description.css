@@ -1,0 +1,21 @@
+.description {
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.description p {
+    font-family: oxygen;
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 55.012px;
+}
+
+.description p:nth-child(2) {
+    text-align: center;
+    font: var(--headLine5);
+    font-size: 24px;
+}

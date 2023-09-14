@@ -33,7 +33,8 @@
 }
 
 body {
-    background: var(--gradient);
+    /* background: var(--gradient); */
+    background: linear-gradient(to bottom, #0096fa, #fdbb05c0, #0074D9);
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);

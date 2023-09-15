@@ -19,7 +19,12 @@
     border: 2px solid var(--purple);
 } */
 
+.button:hover {
+    filter: brightness(100%)
+}
+
 .button {
+    border-radius: 16px;
     background-color: black;
     cursor: pointer;
     padding: 16px 32px;

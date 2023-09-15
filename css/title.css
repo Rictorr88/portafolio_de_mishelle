@@ -10,4 +10,6 @@
     text-decoration: none;
     /* margin-inline-start: 4px; */
     box-shadow: -4px 4px 0 var(--white);
+    cursor: none;
+    z-index: -1;
 }
